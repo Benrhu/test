@@ -1,11 +1,12 @@
 <script lang="ts">
 import Hero from '@/components/Hero.vue';
-import Features from '@/components/Features.vue'
+import Pricing from '@/components/Pricing.vue';
 
 export default{
   name: '',
   components: {
     Hero,
+    Pricing
 },
   props: {},
   
@@ -14,8 +15,7 @@ export default{
 
 <template>
   <Hero />
-  <Features />
-
+  <Pricing />
 </template>
 
 
