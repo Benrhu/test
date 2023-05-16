@@ -1,0 +1,14 @@
+stages:
+  - build
+  - deploy
+
+build:
+  stage: build
+  script:
+    - yarn run build
+    - vercel build
+
+deploy:
+  stage: deploy
+  script:
+    - vercel --prod

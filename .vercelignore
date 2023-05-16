@@ -1,0 +1,14 @@
+# Archivos y directorios generales a ignorar
+node_modules
+.git
+.vercel
+
+# Ignorar archivos específicos
+README.md
+yarn.lock
+package-lock.json
+
+# Ignorar directorios específicos
+public/
+dist/
+build/
